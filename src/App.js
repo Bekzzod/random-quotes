@@ -51,7 +51,7 @@ class App extends React.Component {
   render() {
     if (this.state.isLoading) {
       return(
-        <div className="container">
+        <div className="load-container">
           <img id="loading" src={require('./loading.gif')} alt="loading" />
         </div>
       )
